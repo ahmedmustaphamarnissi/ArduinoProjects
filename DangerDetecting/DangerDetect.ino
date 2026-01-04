@@ -5,6 +5,7 @@
 #define green 4
 #define yellow 3
 #define red 2
+#define buzzer 8
 
 int distance = 0;
 long duration = 0;
@@ -19,6 +20,7 @@ void setup() {
   lcd.print("Safe");
 
   pinMode(trig, OUTPUT);
+  pinMode(buzzer,OUTPUT);
   pinMode(echo, INPUT);
   pinMode(green, OUTPUT);
   pinMode(yellow, OUTPUT);
@@ -53,26 +55,34 @@ void loop() {
   else if (distance >= 20) {
     lcd.print("Little Danger");
     SetColor(yellow);
+    digitalWrite(buzzer, HIGH);
     delay(800);
     ResetColor();
+    digitalWrite(buzzer, LOW);
   }
   else if (distance >= 15) {
     lcd.print("More Danger");
     SetColor(yellow);
+    digitalWrite(buzzer, HIGH);
     delay(200);
     ResetColor();
+    digitalWrite(buzzer, LOW);
   }
   else if (distance >= 10) {
     lcd.print("Danger!");
     SetColor(red);
+    digitalWrite(buzzer, HIGH);
     delay(800);
     ResetColor();
+    digitalWrite(buzzer, LOW);
   }
   else {
     lcd.print("BIG DANGER!");
     SetColor(red);
+    digitalWrite(buzzer, HIGH);
     delay(200);
     ResetColor();
+    digitalWrite(buzzer, LOW);
   }
 
   delay(100);
