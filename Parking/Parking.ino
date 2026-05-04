@@ -193,7 +193,7 @@ void ParkingFull() {
 
   delay(2000);
   LcdClose();
-  TurnOnRedColor();-
+  TurnOnRedColor();
 }
 void ParkingEmpty(){
   lcd.clear();
