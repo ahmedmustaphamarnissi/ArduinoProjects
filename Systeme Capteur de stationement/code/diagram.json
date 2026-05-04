@@ -1,0 +1,312 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-breadboard-half",
+      "id": "bb1",
+      "top": -70.2,
+      "left": -208.4,
+      "rotate": 90,
+      "attrs": {}
+    },
+    {
+      "type": "board-st-nucleo-l031k6",
+      "id": "nucleo",
+      "top": -75.59,
+      "left": -82.85,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -118.8,
+      "left": 128.6,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": -118.8,
+      "left": 234.2,
+      "attrs": { "color": "orange" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 224.75,
+      "left": 96,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 253.55,
+      "left": 96,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": -219.3,
+      "left": -397.7,
+      "attrs": { "distance": "100" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": 50.4,
+      "left": -430.2,
+      "attrs": { "volume": "0.1" }
+    },
+    { "type": "wokwi-slide-switch", "id": "sw1", "top": -600.4, "left": -371.3, "attrs": {} },
+    {
+      "type": "wokwi-7segment",
+      "id": "sevseg1",
+      "top": -52.62,
+      "left": -849.32,
+      "attrs": { "common": "cathode" }
+    },
+    {
+      "type": "wokwi-7segment",
+      "id": "sevseg2",
+      "top": -43.02,
+      "left": -705.32,
+      "attrs": { "common": "cathode" }
+    },
+    { "type": "wokwi-74hc595", "id": "sr1", "top": -202.8, "left": -858.56, "attrs": {} },
+    { "type": "wokwi-74hc595", "id": "sr2", "top": -212.4, "left": -710, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r3",
+      "top": -91.2,
+      "left": -874.15,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r4",
+      "top": -91.2,
+      "left": -864.55,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r5",
+      "top": -91.2,
+      "left": -845.35,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r6",
+      "top": -91.2,
+      "left": -835.75,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r7",
+      "top": 52.8,
+      "left": -835.75,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r8",
+      "top": 52.8,
+      "left": -845.35,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r9",
+      "top": 52.8,
+      "left": -864.55,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r10",
+      "top": 52.8,
+      "left": -874.15,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r11",
+      "top": -81.6,
+      "left": -726.55,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r12",
+      "top": -81.6,
+      "left": -716.95,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r13",
+      "top": -81.6,
+      "left": -697.75,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r14",
+      "top": -81.6,
+      "left": -688.15,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r15",
+      "top": 62.4,
+      "left": -688.15,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r16",
+      "top": 62.4,
+      "left": -697.75,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r17",
+      "top": 62.4,
+      "left": -716.95,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r18",
+      "top": 62.4,
+      "left": -726.55,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    }
+  ],
+  "connections": [
+    [ "$serialMonitor:TX", "nucleo:VCP_RX", "", [] ],
+    [ "$serialMonitor:RX", "nucleo:VCP_TX", "", [] ],
+    [ "bb1:9t.a", "nucleo:GND.2", "black", [ "h0" ] ],
+    [ "nucleo:D6", "r1:1", "red", [ "h-105.6", "v201.6" ] ],
+    [ "r1:2", "led1:A", "red", [ "v-259.2", "h-1.2" ] ],
+    [ "led1:C", "nucleo:GND.2", "black", [ "v19.2", "h-66.8", "v-28.8" ] ],
+    [ "nucleo:D11", "r2:1", "gold", [ "h-124.8", "v201.6" ] ],
+    [ "r2:2", "led2:A", "gold", [ "v0", "h104.4" ] ],
+    [ "led2:C", "nucleo:GND.2", "black", [ "v19.2", "h-143.6", "v-19.2" ] ],
+    [ "ultrasonic1:TRIG", "nucleo:D3", "green", [ "v0" ] ],
+    [ "ultrasonic1:ECHO", "nucleo:D4", "green", [ "v0" ] ],
+    [
+      "ultrasonic1:VCC",
+      "nucleo:5V",
+      "red",
+      [ "v28.8", "h115.2", "v-115.2", "h259.2", "v134.4" ]
+    ],
+    [ "ultrasonic1:GND", "nucleo:GND.1", "black", [ "v0" ] ],
+    [ "bz1:1", "nucleo:GND.1", "black", [ "v38.4", "h220.8", "v-48" ] ],
+    [ "bz1:2", "nucleo:D12", "green", [ "h316.4" ] ],
+    [ "sw1:2", "nucleo:D5", "purple", [ "v9.6", "h-67.1", "v316.8" ] ],
+    [ "sw1:3", "nucleo:GND.2", "black", [ "v9.6", "h643.4", "v230.4" ] ],
+    [ "bb1:11t.c", "sr1:VCC", "red", [ "h125.3", "v-308.1", "h-614.4" ] ],
+    [ "sr1:GND", "bb1:11b.i", "black", [ "v0", "h57.6", "v172.8" ] ],
+    [ "bb1:11b.i", "sr1:OE", "black", [ "h-364.3", "v-279.3", "h-67.2" ] ],
+    [ "sr1:STCP", "nucleo:A6", "cyan", [ "v-114.0", "h643.2", "v326.4" ] ],
+    [ "sr1:SHCP", "nucleo:A5", "cyan", [ "v-123.6", "h681.6", "v345.6" ] ],
+    [ "sr1:Q7S", "sr2:DS", "orange", [ "v0" ] ],
+    [ "sr2:STCP", "nucleo:A6", "cyan", [ "v-114.0", "h793.2", "v326.4" ] ],
+    [ "sr2:SHCP", "nucleo:A5", "cyan", [ "v-123.6", "h831.6", "v345.6" ] ],
+    [ "sr2:VCC", "nucleo:5V", "red", [ "v-308.1", "h264.0" ] ],
+    [ "sr2:GND", "nucleo:GND.1", "black", [ "v172.8", "h207.6" ] ],
+    [ "sr2:OE", "nucleo:GND.1", "black", [ "v-279.3", "h282.8" ] ],
+    [ "sevseg1:G", "r3:2", "green", [ "v0" ] ],
+    [ "sevseg1:F", "r4:2", "green", [ "v0" ] ],
+    [ "sevseg1:A", "r5:2", "green", [ "v0" ] ],
+    [ "sevseg1:B", "r6:2", "green", [ "v0" ] ],
+    [ "sevseg1:DP", "r7:1", "green", [ "v0" ] ],
+    [ "sevseg1:C", "r8:1", "green", [ "v0" ] ],
+    [ "sevseg1:D", "r9:1", "green", [ "v0" ] ],
+    [ "sevseg1:E", "r10:1", "green", [ "v0" ] ],
+    [ "r3:1", "sr1:Q7", "green", [ "h0", "v-19.2", "h48" ] ],
+    [ "r4:1", "sr1:Q6", "green", [ "h0", "v-19.2", "h38.4" ] ],
+    [ "r10:2", "sr1:Q5", "green", [ "h0", "v104.4", "h76.8", "v-374.4", "h-48" ] ],
+    [ "r9:2", "sr1:Q4", "green", [ "h0", "v75.6", "h57.6", "v-307.2", "h-48" ] ],
+    [ "r8:2", "sr1:Q3", "green", [ "h0", "v56.4", "h28.8", "v-297.6", "h-48" ] ],
+    [ "r5:1", "sr1:Q2", "green", [ "h0", "v-48", "h-28.8" ] ],
+    [ "r6:1", "sr1:Q1", "green", [ "h0", "v-57.6", "h-48" ] ],
+    [ "r7:2", "sr1:Q0", "green", [ "h0", "v27.6", "h-96", "v-364.8", "h57.6" ] ],
+    [ "sevseg2:G", "r11:2", "green", [ "v0" ] ],
+    [ "sevseg2:F", "r12:2", "green", [ "v0" ] ],
+    [ "sevseg2:A", "r13:2", "green", [ "v0" ] ],
+    [ "sevseg2:B", "r14:2", "green", [ "v0" ] ],
+    [ "sevseg2:DP", "r15:1", "green", [ "v0" ] ],
+    [ "sevseg2:C", "r16:1", "green", [ "v0" ] ],
+    [ "sevseg2:D", "r17:1", "green", [ "v0" ] ],
+    [ "sevseg2:E", "r18:1", "green", [ "v0" ] ],
+    [ "r11:1", "sr2:Q7", "green", [ "h0", "v-19.2", "h48" ] ],
+    [ "r12:1", "sr2:Q6", "green", [ "h0", "v-19.2", "h38.4" ] ],
+    [ "r18:2", "sr2:Q5", "green", [ "h0", "v104.4", "h76.8", "v-374.4", "h-48" ] ],
+    [ "r17:2", "sr2:Q4", "green", [ "h0", "v75.6", "h57.6", "v-307.2", "h-48" ] ],
+    [ "r16:2", "sr2:Q3", "green", [ "h0", "v56.4", "h28.8", "v-297.6", "h-48" ] ],
+    [ "r13:1", "sr2:Q2", "green", [ "h0", "v-48", "h-28.8" ] ],
+    [ "r14:1", "sr2:Q1", "green", [ "h0", "v-57.6", "h-48" ] ],
+    [ "r15:2", "sr2:Q0", "green", [ "h0", "v27.6", "h-96", "v-364.8", "h57.6" ] ],
+    [ "sr1:DS", "nucleo:A4", "cyan", [ "v-142.8", "h1017.6", "v374.4" ] ],
+    [ "sevseg2:COM.2", "nucleo:GND.1", "white", [ "h0", "v-66.36", "h192", "v96" ] ],
+    [ "sevseg2:COM.1", "bb1:11b.i", "white", [ "h0", "v76.8", "h201.6", "v-115.2" ] ],
+    [ "sevseg1:COM.2", "nucleo:GND.1", "white", [ "h0", "v-75.96", "h364.8", "v115.2" ] ],
+    [ "sevseg1:COM.1", "nucleo:GND.1", "white", [ "h0", "v201.6", "h364.8", "v-230.4" ] ],
+    [ "nucleo:D1", "bb1:8b.h", "", [ "$bb" ] ],
+    [ "nucleo:D0", "bb1:9b.h", "", [ "$bb" ] ],
+    [ "nucleo:RST.1", "bb1:10b.h", "", [ "$bb" ] ],
+    [ "nucleo:GND.1", "bb1:11b.h", "", [ "$bb" ] ],
+    [ "nucleo:D2", "bb1:12b.h", "", [ "$bb" ] ],
+    [ "nucleo:D3", "bb1:13b.h", "", [ "$bb" ] ],
+    [ "nucleo:D4", "bb1:14b.h", "", [ "$bb" ] ],
+    [ "nucleo:D5", "bb1:15b.h", "", [ "$bb" ] ],
+    [ "nucleo:D6", "bb1:16b.h", "", [ "$bb" ] ],
+    [ "nucleo:D7", "bb1:17b.h", "", [ "$bb" ] ],
+    [ "nucleo:D8", "bb1:18b.h", "", [ "$bb" ] ],
+    [ "nucleo:D9", "bb1:19b.h", "", [ "$bb" ] ],
+    [ "nucleo:D10", "bb1:20b.h", "", [ "$bb" ] ],
+    [ "nucleo:D11", "bb1:21b.h", "", [ "$bb" ] ],
+    [ "nucleo:D12", "bb1:22b.h", "", [ "$bb" ] ],
+    [ "nucleo:VIN", "bb1:8t.d", "", [ "$bb" ] ],
+    [ "nucleo:GND.2", "bb1:9t.d", "", [ "$bb" ] ],
+    [ "nucleo:RST.2", "bb1:10t.d", "", [ "$bb" ] ],
+    [ "nucleo:5V", "bb1:11t.d", "", [ "$bb" ] ],
+    [ "nucleo:A7", "bb1:12t.d", "", [ "$bb" ] ],
+    [ "nucleo:A6", "bb1:13t.d", "", [ "$bb" ] ],
+    [ "nucleo:A5", "bb1:14t.d", "", [ "$bb" ] ],
+    [ "nucleo:A4", "bb1:15t.d", "", [ "$bb" ] ],
+    [ "nucleo:A3", "bb1:16t.d", "", [ "$bb" ] ],
+    [ "nucleo:A2", "bb1:17t.d", "", [ "$bb" ] ],
+    [ "nucleo:A1", "bb1:18t.d", "", [ "$bb" ] ],
+    [ "nucleo:A0", "bb1:19t.d", "", [ "$bb" ] ],
+    [ "nucleo:REF", "bb1:20t.d", "", [ "$bb" ] ],
+    [ "nucleo:3V3", "bb1:21t.d", "", [ "$bb" ] ],
+    [ "nucleo:D13", "bb1:22t.d", "", [ "$bb" ] ]
+  ],
+  "dependencies": {}
+}
